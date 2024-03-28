@@ -55,12 +55,5 @@ $(document).ready(function() {
         }
     });
 
-    // Waypoints
-    $('.line').waypoint(function() {
-        $(this.element).animate({
-            width: $(this.element).attr('aria-valuenow') + '%'
-        }, 1000);
-    }, {
-        offset: '80%'
-    });
+    // Waypoints (optional, depends on your implementation)
 });
